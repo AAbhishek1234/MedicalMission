@@ -69,7 +69,7 @@ const JobReady = () => {
               className="custom-image" // Keep the class name for styling
               effect="blur" // Blur effect during loading
               placeholderSrc="/Images/placeholder.jpg" // Placeholder image while loading
-              threshold={200} // Adjusted threshold for earlier loading
+              threshold={100} // Adjusted threshold for earlier loading
               width="100%" // Ensure responsiveness
             />
           </Card>
