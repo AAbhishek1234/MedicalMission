@@ -4,8 +4,7 @@ import "./gallery.css";
 
 const Gallery = () => {
   const galleryImages = [
-    // "/Images/g1.jpg",
-    // "/Images/g9.jpg",
+   
     "/Images/gnew2.jpg",
     "/Images/gnew8.jpg",
     "/Images/g10.jpg",
@@ -48,7 +47,6 @@ const Gallery = () => {
         ))}
       </Row>
 
-      {/* Modal for Full-Screen View */}
       <Modal show={showModal} onHide={handleClose} centered>
         <Modal.Body>
           <img
@@ -64,3 +62,4 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
