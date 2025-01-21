@@ -70,7 +70,7 @@ const JobReady = () => {
               effect="blur" // Blur effect during loading
               placeholderSrc="/Images/placeholder.jpg" // Placeholder image while loading
               threshold={100} // Adjusted threshold for earlier loading
-              width="100%" // Ensure responsiveness
+             // Ensure responsiveness
             />
           </Card>
         </Col>
